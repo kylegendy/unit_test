@@ -1,4 +1,6 @@
+#include <iostream>
 
 int main() {
-	return 0;
+	std::cout << "yikesee-doo" << std::endl;
+	return 1;
 }
