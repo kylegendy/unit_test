@@ -35,9 +35,14 @@ jobs:
       # See https://cmake.org/cmake/help/latest/manual/ctest.1.html for more detail
       run: make test
 
-    - name: Get version
-      id: vars
-      run: echo ::set-output name=version::$("hello world")
+    - name: Output
+    - run: echo -n -e "HELLO\n !\n World!" > text.txt
 
-    - name: Test output
-      run: echo ${{ steps.vars.outputs.version }}
+    - uses: kylegendy/unit_test@main
+      id: hello
+      with:
+        path: text.txt
+
+    - run: echo $TEXT
+      env:
+        TEXT: ${{ steps.hello.outputs.text }}
