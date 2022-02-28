@@ -35,5 +35,9 @@ jobs:
       # See https://cmake.org/cmake/help/latest/manual/ctest.1.html for more detail
       run: make test
 
-    - name: just echo a message
-      run: echo Hello there!
+    - name: Get version
+        id: vars
+        run: echo ::set-output name=version::$(cat ./Testing/Temporary/LastTest.log)
+
+    - name: Test output
+      run: echo ${{ steps.vars.outputs.version }}
