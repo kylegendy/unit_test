@@ -2,6 +2,6 @@
 #include <iostream>
 
 int main() {
-	std::cout << "yikesee-doo" << std::endl;
+	system("echo yikesee-doo");
 	return 0;
 }
