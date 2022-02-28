@@ -37,7 +37,7 @@ jobs:
 
     - name: Get version
       id: vars
-      run: echo ::set-output name=version::$(cat ./Testing/Temporary/LastTest.log)
+      run: echo ::set-output name=version::$(echo hello world)
 
     - name: Test output
       run: echo ${{ steps.vars.outputs.version }}
