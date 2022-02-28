@@ -36,7 +36,8 @@ jobs:
       run: make test
 
     # Runs a single command using the runners shell
-    - name: Run a one-line script 04
+    - name: Show Test Log File
+      working-directory: ${{github.workspace}}/build/Testing/Temporary
       if: always()
-      run: echo hello world
+      run: cat LastTest.log
 
