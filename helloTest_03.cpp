@@ -2,5 +2,5 @@
 
 int main() {
 	std::cout << "yikesee-doo" << std::endl;
-	return 1;
+	return 0;
 }
