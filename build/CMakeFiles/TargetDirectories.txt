@@ -1,8 +1,0 @@
-/Users/kyle/Desktop/hardDiscCS/myProj/C++programs/unit_test/build/CMakeFiles/rebuild_cache.dir
-/Users/kyle/Desktop/hardDiscCS/myProj/C++programs/unit_test/build/CMakeFiles/edit_cache.dir
-/Users/kyle/Desktop/hardDiscCS/myProj/C++programs/unit_test/build/CMakeFiles/test.dir
-/Users/kyle/Desktop/hardDiscCS/myProj/C++programs/unit_test/build/CMakeFiles/helloTest.dir
-/Users/kyle/Desktop/hardDiscCS/myProj/C++programs/unit_test/build/CMakeFiles/helloTest_01.dir
-/Users/kyle/Desktop/hardDiscCS/myProj/C++programs/unit_test/build/CMakeFiles/helloTest_02.dir
-/Users/kyle/Desktop/hardDiscCS/myProj/C++programs/unit_test/build/CMakeFiles/helloTest_03.dir
-/Users/kyle/Desktop/hardDiscCS/myProj/C++programs/unit_test/build/CMakeFiles/hello.dir

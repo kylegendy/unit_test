@@ -1,6 +1,0 @@
-helloTest 1 0.128731
-helloTest_01 1 0.0415968
-helloTest_02 1 0.0753967
-helloTest_03 0 0
----
-helloTest_03
