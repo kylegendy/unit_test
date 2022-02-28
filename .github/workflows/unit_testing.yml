@@ -36,6 +36,5 @@ jobs:
       run: make test
 
     - name: output
-      working-directory: ${{github.workspace}}
-      run: python3 world.txt
+      run: printenv "hello world"
 
